@@ -62,3 +62,18 @@ document.getElementById("click").addEventListener("click", function () {
   window.open("https://www.youtube.com/results?search_query=curso+arduino", "_blank");
 });
 ```
+## Arquivo do `style.css`
+O arquivo contem estruturas para promover o aprimoramento estético da pagina `HTML` como a mudança de cor do background e ajuste do tamanho das imagens como é mostrado a seguir:
+
+```css
+img {
+    width: 300px;
+    height: auto;
+    /* mantém a proporção */
+    alt: "prototipo não funcional ";
+}
+body {
+    background-color: #04d5ff;
+    display: flexbox;
+    align-items: center;
+```
