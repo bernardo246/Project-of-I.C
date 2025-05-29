@@ -77,3 +77,9 @@ body {
     display: flexbox;
     align-items: center;
 ```
+
+## Outras páginas 
+- Página de curiosidades
+aborda curiosidades sobre o arduino e seus possíveis usos como exemplo Automação Residencial 
+- Página sobre o curso de Ciência da computação
+aborda os interesses de seguimento de carreira, uma breve descrição do curso e o perfil mais comum do tipo de estudante 
