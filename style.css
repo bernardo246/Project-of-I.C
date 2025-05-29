@@ -1,0 +1,25 @@
+img {
+    width: 300px;
+    height: auto;
+    /* mantém a proporção */
+    alt: "prototipo não funcional ";
+}
+body {
+    background-color: #6da9c9;
+    display: flexbox;
+    align-items: center;
+}
+button {
+    color: #2200ff;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
