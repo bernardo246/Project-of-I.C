@@ -5,21 +5,25 @@ img {
     alt: "prototipo não funcional ";
 }
 body {
-    background-color: #6da9c9;
+    background-color: #04d5ff;
     display: flexbox;
     align-items: center;
 }
 button {
-    color: #2200ff;
+    color: #1f23ed;
 }
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 90%;
-    max-width: 600px;
-    background-color: #fff;
-    padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+.coluna {
+    flex: 1;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 10px;
+}
+.esquerda {
+    background-color: #018581;
 }
